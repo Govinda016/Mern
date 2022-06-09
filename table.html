@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>data entry</title>
+        <style>
+            .container {
+                max-width: 1200px;
+                margin: auto;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+
+            thead {
+                background-color: rgb(232, 127, 127);
+            }
+
+            th {
+                padding: 15px 0;
+                color: white;
+                font-size: 25px;
+            }
+
+
+            button {
+                padding: 15px 25px;
+                margin: 15px 0;
+            }
+
+            #cus_id tr {
+                height: 50px;
+                text-align: center;
+            }
+
+            #cus_id tr td {
+                color: green;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <section class="container">
+            <button onclick="addcustomer()">ADD</button>
+            <table border="2" width="100%" cellspacing="0">
+                <thead>
+                    <th>S.N</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>email</th>
+                    <th>remark</th>
+                </thead>
+                <tbody id="cus_id">
+
+
+                </tbody>
+
+            </table>
+        </section>
+        <script src="./table.js"></script>
+    </body>
+
+</html>
